@@ -1,0 +1,152 @@
+/* Reset Defaut Css HTML */
+
+html,
+body {
+  height: 100%;
+}
+ 
+*,
+body,
+input,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/showcase.webp");
+  background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: normal;
+}
+/* Header - Menu */
+
+.navmenu {
+  height: 72px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.navmenu__section {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navmenu__section.left {
+
+}
+
+.navmenu__logo {
+  width: 100px;
+}
+
+.navmenu__section.right {
+  
+}
+
+.navmenu__link {
+  color: white;
+  padding: 28px 17px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.navmenu__link:hover {
+  color: #1ED760;
+}
+
+/* Main Content */
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__main {
+  color: white;
+  font-size: 60px;
+  padding-top: 250px;
+}
+
+.content__description {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.content__button {
+  margin-top: 25px;
+  padding: 15px 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: #1CB842;
+  border: none;
+  color: white;
+}
+
+.content__button--link {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer Section */
+
+.navfooter {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  
+}
+
+.navfooter__section {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navfooter__section.center a{
+  color: white;
+  padding: 28px 17px;
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.navfooter__section.center a:hover {
+  color: #1CB842;
+}
+
+.navfooter__location {
+  width: 30px;
+}
